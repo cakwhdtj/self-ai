@@ -29,6 +29,9 @@ const css={
         marginBottom:'-10%',
         fontSize: '1.8vw',
         fontWeight:'400',
+    },
+    eLink:{
+        textDecoration : 'none'
     }
 }
 const Welcome=()=>
@@ -54,7 +57,7 @@ const Welcome=()=>
                 </div>
                 <div style={css.subtitle}>
                     <div style={css.sentence}>Our vision is to connect the world through a virtual self. </div>
-                    <div style={css.sentence}>To learn more, start a conversation or contact us via <a href="mailto:wkddydpf@gmail.com">Email</a>.</div>
+                    <div style={css.sentence}>To learn more, start a conversation or contact us via <a href="mailto:wkddydpf@gmail.com" style={css.eLink} >Email</a>.</div>
                 </div>
             </div>
         </div>
